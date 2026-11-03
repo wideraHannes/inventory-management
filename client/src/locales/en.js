@@ -6,6 +6,7 @@ export default {
     orders: 'Orders',
     finance: 'Finance',
     demandForecast: 'Demand Forecast',
+    restocking: 'Restocking',
     companyName: 'Catalyst Components',
     subtitle: 'Inventory Management System'
   },
@@ -106,6 +107,7 @@ export default {
     title: 'Orders',
     description: 'View and manage customer orders',
     allOrders: 'All Orders',
+    submittedOrders: 'Submitted Orders',
     totalOrders: 'Total Orders',
     totalRevenue: 'Total Revenue',
     avgOrderValue: 'Avg Order Value',
@@ -113,6 +115,8 @@ export default {
     itemsCount: '{count} items',
     quantity: 'Qty',
     table: {
+      leadTime: 'Lead Time',
+      totalCost: 'Total Cost',
       orderNumber: 'Order Number',
       orderId: 'Order ID',
       orderDate: 'Order Date',
@@ -164,6 +168,35 @@ export default {
       vendor: 'Vendor',
       date: 'Date',
       amount: 'Amount'
+    }
+  },
+
+  // Restocking
+  restocking: {
+    title: 'Restocking',
+    description: 'Plan restocking orders from demand forecasts within a budget',
+    budget: 'Budget',
+    plannedCost: 'Planned Cost',
+    remainingBudget: 'Remaining Budget',
+    maxLeadTime: 'Max Lead Time',
+    days: '{count} days',
+    recommendations: 'Recommended Purchases',
+    noRecommendations: 'No items need restocking based on current forecasts',
+    placeOrder: 'Place Order',
+    placing: 'Placing order...',
+    orderPlaced: 'Order {orderNumber} was placed successfully.',
+    viewInOrders: 'View in Orders',
+    orderFailed: 'Failed to place order',
+    table: {
+      include: 'Include',
+      sku: 'SKU',
+      itemName: 'Item Name',
+      trend: 'Trend',
+      need: 'Need',
+      recommendedQty: 'Recommended Qty',
+      unitCost: 'Unit Cost',
+      subtotal: 'Subtotal',
+      leadTime: 'Lead Time (days)'
     }
   },
 
